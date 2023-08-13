@@ -6,8 +6,8 @@ function toggleMode() {
   //pegar a tag img e substituir a imagem
   // se tiver ligth mode, adicionar uma imagem se estiver sem manter imagem
   if (html.classList.contains("light")) {
-    img.setAttribute("src", ".vscode/assets/may.png")
+    img.setAttribute("src", "./assets/may.png")
   } else {
-    img.setAttribute("src", ".vscode/assets/may2.png")
+    img.setAttribute("src", "./assets/may2.png")
   }
 }
